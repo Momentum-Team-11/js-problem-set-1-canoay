@@ -122,5 +122,8 @@ function multigreeting (name,language)
 // Write a function called gcd that takes two arguments and returns the greatest common
 // divisor using the instructions above.
 function gcd(a,b) {
-    if (a% 2 ===  0)
-}
+    if (a === a/2, b === b/2) {
+     return a;
+    }
+    return gcd(b, a%b);
+    }
